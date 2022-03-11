@@ -1,0 +1,78 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body style="background-image: url(/static/images/reg.png); background-repeat: no-repeat; background-size: 100%;">
+
+    <div class="row container">
+        <div class="col-4">
+
+
+        </div>
+        <div class="col-8">
+            <form class="row g-3 mt-4" action="adserch" method="POST">
+                {% csrf_token %}
+                <div class="col-auto">
+                    <label for="staticEmail2" class="">Enter Phone No</label>
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail2">
+                </div>
+                <div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden"></label>
+                    <input type="text" class="form-control" id="inputPassword2" placeholder="" name="aad">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Confirm </button>
+                </div>
+            </form>
+        </div>
+
+        <form class="row container mt-4" action="pwu" method="POST">
+            {% csrf_token %}
+            
+            <div class="col-7">
+              <label for="inputEmail4" class="form-label">Name</label>
+              <input type="text" class="form-control" id="inputEmail4" name="name" value="{{sc.name}}" readonly>
+            </div>
+            <div class="col-7">
+              <label for="inputPassword4" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="inputPassword4" name="phone" value="{{sc.phone}}" readonly>
+            </div>
+            <div class="col-7">
+              <label for="inputAddress" class="form-label">User Name</label>
+              <input type="text" class="form-control" id="inputAddress" name="username" value="{{sc.user}}" readonly>
+            </div>
+            <div class="col-7">
+              <label for="inputAddress2" class="form-label">Enter New Password</label>
+              <input type="password" class="form-control" id="inputAddress2" name="pass" >
+            </div>
+            <div class="col-7">
+              <label for="inputCity" class="form-label">Re-Enter Password</label>
+              <input type="password" class="form-control" id="inputCity" name="repass">
+            </div>
+              
+            
+            <div class="col-7 mt-3 " align="right">
+              <button type="submit" class="btn btn-success"  >Update</button>
+            </div>
+        </div>
+          </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
