@@ -1,6 +1,16 @@
 # Django_Portfolio_Website
 I Developed this portfolio website using Python Django Framework .		
 
+<h3 align="left">Languages used:</h3>
+
+<p align="left"> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
+<img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> 
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
+ <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
+
 ## Django-Sign in
 Creating a simple sign in view and then moving onto more advanced Data Entry view with Aadhar ,name , Qualification and confirmation mail
 
@@ -67,5 +77,3 @@ You can access the django main page at http://127.0.0.1:8000 and login with user
 
 ### Show
 ![Show Page](https://user-images.githubusercontent.com/83352826/157865146-347b8812-c507-4a33-9ad8-920c0e5e7dbd.PNG)
-
-
