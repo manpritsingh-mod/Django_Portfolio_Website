@@ -67,3 +67,5 @@ You can access the django main page at http://127.0.0.1:8000 and login with user
 
 ### Show
 ![Show Page](https://user-images.githubusercontent.com/83352826/157865146-347b8812-c507-4a33-9ad8-920c0e5e7dbd.PNG)
+
+
